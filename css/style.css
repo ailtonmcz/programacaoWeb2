@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700|Open+Sans|Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Source+Sans+Pro:400,700,900&display=swap');
+
+body {
+    background-color: #ffffff;
+}
+
+
+#menu nav ul li a {
+
+    color: #506a85;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    /*Se não tiver a fonte Open Sans instalada no dispositivo do usuario ele vai procurar a proxima fote sans-serif */
+    font-weight: 400;
+    /*Para esse site estamos usando o google fontes.*/
+}
+
+/*Conteúdo destaques*/
+
+#conteudo1 h5 {
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+    font-weight: 900;
+    overflow: hidden;
+}
+
+#destaque1 {
+    text-align: center;
+    padding: 70px 150px 0px 150px;
+    margin-bottom: 100px;
+}
+
+#destaque1 h3 {
+    color: #506a85;
+    font-size: 44px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#destaque1 p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    color: #73879c;
+}
+
+#destaque2,
+#destaque3,
+#destaque4 {
+    width: 360px;
+    height: 245px;
+    float: left;
+}
+
+#destaque2 img,
+#destaque3 img,
+#destaque4 img {
+    float: left;
+    margin-right: 15px;
+}
+
+#destaque2 p,
+#destaque3 p,
+#destaque4 p {
+    margin: 20px 0 0 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #73879c;
+}
+
+#conteudo2 {
+    margin: 400px 0 100px 0;
+    background-color: #f2f5f7;
+    padding-top: 100px;
+    clear: both;
+    overflow: hidden;
+}
+
+#conteudo2 section {
+    margin-bottom: 80px;
+}
+
+#conteudo2 h3 {
+    color: #506a85;
+    font-size: 44px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#conteudo2 p {
+    text-align: center;
+    color: #73879c;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+
+#conteudo2 #figuretopo {
+    float: left;
+}
+
+figcaption {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+figcaption h5 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #506a85;
+
+}
+
+#conteudo2 #slides {
+    margin: 700px 0 100px 0;
+}
+
+#conteudo2 #slides li {
+    list-style-type: none;
+    display: inline;
+}
+
+#conteudo3 {
+    margin-bottom: 100px;
+}
+
+#conteudo3 h2 {
+    color: #506a85;
+    font-size: 44px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+#conteudo3 p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #73879c;
+    text-align: center;
+}
+
+#conteudo3 button {
+    background-color: #00bc9c;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer {
+    background-color: #283645;
+    color: #707e8c;
+    text-align: center;
+    height: 50px;
+}
