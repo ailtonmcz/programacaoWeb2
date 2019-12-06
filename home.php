@@ -15,7 +15,7 @@ menu();
 <body background="/img/background1.jpg" class="img-fluid" alt="Responsive image">
    <div style="display:flex; flex-direction:row; flex-wrap: wrap; align-content: space-between;">
         <div >
-          <a href="formulario_veiculos.php">
+          <a href="/tables/veiculos/form_veiculos.php">
               <br><br><img src="img/cadastro_veiculo.png" width="110" height="110">
               <div class="container">
                   <font size="2" color="white" face="Arial"><b><br>CADASTRAR VEICULO</b></font>
@@ -25,7 +25,7 @@ menu();
         </div>  
 
         <div >
-            <a href="form_clientes.php">
+           <a href="/tables/clientes/form_clientes.php">
               <br><br><img src="img/clients.png" width="110" height="110">
               <div class="container">
                 <font size="2" color="white" face="Arial"><b><br>CADASTRAR CLIENTE</b></font>
@@ -34,7 +34,7 @@ menu();
         </div>
 
         <div >
-          <a href="form_funcionarios.php">
+          <a href="/tables/funcionarios/form_funcionarios.php">
               <br><br><img src="img/funcionarios.png" width="110" height="110">
                 <div class="container">
                   <font size="2" color="white" face="Arial"><b><br>CADASTRAR FUNCIONARIOS</b></font>
@@ -44,7 +44,7 @@ menu();
 
 
         <div >
-          <a href="form_usuarios.php">
+          <a href="/tables/usuarios/form_usuarios.php">
               <br><br><img src="img/usuarios.png" width="110" height="110">
                 <div class="container">
                   <font size="2" color="white" face="Arial"><b><br>CADASTRAR USUÁRIOS</b></font>
@@ -53,7 +53,7 @@ menu();
           </div>
 
         <div >
-          <a href="form_veic_caracts.php">
+          <a href="./tables/veiculos_caracteristicas/form_veic_caracts.php">
               <br><br><img src="img/veic_carects.png" width="110" height="110">
                 <div class="container">
                   <font size="2" color="white" face="Arial"><b><br>CARACTERISTICAS DE VEICULOS</b></font>

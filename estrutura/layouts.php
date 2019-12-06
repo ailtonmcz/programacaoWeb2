@@ -8,8 +8,8 @@
   <meta charset="utf-8" />
   <title>Veiculos</title>
 
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
 
     </head>
 
@@ -21,23 +21,23 @@
 <?php function menu(){?>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="home.php">
+          <a class="navbar-brand" href="../../home.php">
             <b>CADASTROS</b>
           </a>
 
-          <a class="navbar-brand" href="consultas.php">
+          <a class="navbar-brand" href="../../consultas.php">
              <b>CONSULTAS</b>
           </a>
 
-          <a class="navbar-brand" href="pedidos.php">
+          <a class="navbar-brand" href="../../pedidos.php">
              <b>PEDIDOS</b>
           </a>
 
-          <a class="navbar-brand" href="delete.php">
+          <a class="navbar-brand" href="../../delete.php">
              <b>EXCLUSÕES</b>
           </a>
 
-          <a class="navbar-brand" href="updates.php">
+          <a class="navbar-brand" href="../../updates.php">
              <b>ALTERAÇÕES</b>
           </a>
                     
